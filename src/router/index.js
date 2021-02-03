@@ -16,13 +16,13 @@ export default new Router(
   {
   routes: [
     {
-      path: '/',
+      path: '/HomePage',
       name: 'HomePage',
       component: HelloWorld
       // redirect: { name: 'Dashboard' }
     },
     {
-      path: '/dashboard',
+      path: '/',
       name: 'Dashboard',
       component: dashboard
     },
