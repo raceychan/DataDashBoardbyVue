@@ -192,10 +192,13 @@
                                 text: 'ASIN: '+this.chosed_asin + ' 排名趋势'},
                         xAxis: {
                                     type: 'category',
-                                    data: this.x_axis
+                                    data: this.x_axis,
+                                    axisLine:{ show: false },
+                                    splitLine:{ show:false }
                                 },
                                 yAxis: {
-                                    type: 'value'
+                                    type: 'value',
+                                    inverse: true
                                 },
                                 series: [{
                                     data: this.echart_data,
